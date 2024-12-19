@@ -51,7 +51,7 @@ extern "C"
 // Included Files
 //
 #include "driverlib.h"
-
+#include "SWConfiguration.h"
 //
 // Check for invalid compile flags
 //

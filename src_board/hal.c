@@ -221,7 +221,7 @@ HAL_MTR_Handle HAL_MTR1_init(void *pMemory, const size_t numBytes)
     obj->cmpssHandle[2] = MTR1_CMPSS_W_BASE;    //!< the CMPSS handle
 #endif  // !(MOTOR1_ISBLDC || MOTOR1_DCLINKSS)
 
-#if defined(MOTOR1_HALL) && defined(  )
+#if defined(MOTOR1_HALL) && defined( CMD_CAP_EN )
 #error HALL and CMD_CAP can't be enabled at the same time
 #elif defined(MOTOR1_HALL)
     // initialize CAP handles for Motor 1

@@ -228,34 +228,34 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-universal_motorcontrol_lab_f28002x.out 
+Rudra_v1.out 
 
 EXE_OUTPUTS__QUOTED += \
-"universal_motorcontrol_lab_f28002x.out" 
+"Rudra_v1.out" 
 
 BIN_OUTPUTS += \
-universal_motorcontrol_lab_f28002x.hex 
+Rudra_v1.hex 
 
 BIN_OUTPUTS__QUOTED += \
-"universal_motorcontrol_lab_f28002x.hex" 
+"Rudra_v1.hex" 
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "universal_motorcontrol_lab_f28002x.out" secondary-outputs
+	@$(MAKE) --no-print-directory -Onone "Rudra_v1.out" secondary-outputs
 
 # Tool invocations
-universal_motorcontrol_lab_f28002x.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
+Rudra_v1.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --idiv_support=idiv0 --tmu_support=tmu1 -O3 --opt_for_speed=3 --fp_mode=relaxed --define=_INLINE --define=_FLASH --define=_F28002x --define=_FULL_FAST_LIB --define=BSXL8323RS_REVA --define=MOTOR1_FAST --define=MOTOR1_ESMO_N --define=MOTOR1_ENC_N --define=MOTOR1_HALL_N --define=HALL_CAL_N --define=MOTOR1_OVM_N --define=MOTOR1_FWC_N --define=MOTOR1_MTPA_N --define=MOTOR1_SSIPD_N --define=MOTOR1_VOLRECT_N --define=DATALOGF2_EN_N --define=DAC128S_ENABLE_N --define=DAC128S_SPIB_N --define=CPUTIME_ENABLE_N --define=TEST_ENABLE_N --define=SFRA_ENABLE_N --define=STEP_RP_EN_N --define=CMD_POT_EN_N --define=CMD_CAP_EN_N --define=CMD_SWITCH_EN_N --define=CMD_CAN_EN_N --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"universal_motorcontrol_lab_f28002x.map" --stack_size=0x100 --warn_sections -i"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/sfra" -i"D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib" -i"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=SFRA_ENABLE_N --diag_wrap=off --display_error_number --xml_link_info="universal_motorcontrol_lab_f28002x_linkInfo.xml" --entry_point=code_start --rom_model -o "universal_motorcontrol_lab_f28002x.out" $(ORDERED_OBJS)
+	"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --idiv_support=idiv0 --tmu_support=tmu1 -O3 --opt_for_speed=3 --fp_mode=relaxed --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"Rudra_v1.map" --stack_size=0x100 --warn_sections -i"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/sfra" -i"D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib" -i"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=SFRA_ENABLE_N --diag_wrap=off --display_error_number --xml_link_info="Rudra_v1_linkInfo.xml" --entry_point=code_start --rom_model -o "Rudra_v1.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-universal_motorcontrol_lab_f28002x.hex: $(EXE_OUTPUTS)
+Rudra_v1.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: C2000 Hex Utility'
-	"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/hex2000" --diag_wrap=off -o "universal_motorcontrol_lab_f28002x.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/hex2000" --diag_wrap=off -o "Rudra_v1.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 

@@ -66,6 +66,7 @@ extern "C"
 //*****************************************************************************
 
 #include "libraries/math/include/math.h"
+#include "SWConfiguration.h"
 
 #include "motor.h"
 
