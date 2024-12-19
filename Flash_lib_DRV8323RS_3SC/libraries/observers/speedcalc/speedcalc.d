@@ -10,8 +10,8 @@ libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/sys/cdefs.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_types.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/math/include/math.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/utilities/types/include/types.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/math/include/math.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/utilities/types/include/types.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdint.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_stdint40.h
@@ -20,14 +20,15 @@ libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/sys/_stdint.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/string.h
 libraries/observers/speedcalc/speedcalc.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/xlocale/_string.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/userParams.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/motor.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Flux_states.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Ls_states.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Rr_states.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Rs_states.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Traj_states.h
-libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/userParams.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/Rudra/SWConfiguration.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/motor.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Flux_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Ls_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Rr_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Rs_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Traj_states.h
+libraries/observers/speedcalc/speedcalc.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_states.h
 
 ../libraries/observers/speedcalc/speedcalc.c:
 
@@ -49,9 +50,9 @@ C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_types.h:
 
 C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/math/include/math.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/math/include/math.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/utilities/types/include/types.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/utilities/types/include/types.h:
 
 C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h:
 
@@ -69,19 +70,21 @@ C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/string.h:
 
 C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/xlocale/_string.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/userParams.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/userParams.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/motor.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/Rudra/SWConfiguration.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Flux_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/motor.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Ls_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Flux_states.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Rr_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Ls_states.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Rs_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Rr_states.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_Traj_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Rs_states.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/observers/est_lib/est_states.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_Traj_states.h:
+
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/observers/est_lib/est_states.h:
 

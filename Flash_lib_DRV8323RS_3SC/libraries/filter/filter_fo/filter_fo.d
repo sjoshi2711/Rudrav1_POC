@@ -2,7 +2,7 @@
 
 libraries/filter/filter_fo/filter_fo.obj: ../libraries/filter/filter_fo/filter_fo.c
 libraries/filter/filter_fo/filter_fo.obj: ../libraries/filter/filter_fo/filter_fo.h
-libraries/filter/filter_fo/filter_fo.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/utilities/types/include/types.h
+libraries/filter/filter_fo/filter_fo.obj: D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/utilities/types/include/types.h
 libraries/filter/filter_fo/filter_fo.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
 libraries/filter/filter_fo/filter_fo.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_ti_config.h
 libraries/filter/filter_fo/filter_fo.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/linkage.h
@@ -21,7 +21,7 @@ libraries/filter/filter_fo/filter_fo.obj: C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2
 
 ../libraries/filter/filter_fo/filter_fo.h:
 
-D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/universal_motorcontrol_lab_f28002x/libraries/utilities/types/include/types.h:
+D:/Rudrav1_SW/CCSWorkspace/RudraV1_POC/Rudra_v1/libraries/utilities/types/include/types.h:
 
 C:/TI/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h:
 
