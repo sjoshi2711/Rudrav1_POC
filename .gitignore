@@ -72,12 +72,12 @@ build/
 
 # C/C++ #
 #########
-*.out
+#*.out
 *.obj
-*.elf
-*.map
-*.hex
-*.bin
+#*.elf
+#*.map
+#*.hex
+#*.bin
 *.d
 
 # Rust #
